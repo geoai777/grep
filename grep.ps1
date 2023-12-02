@@ -216,7 +216,7 @@ Written by geoai777@gmail.com
             $count_only = $true
         } else {
             if (testArgs -arg_list ('-H', '--with-filename')) {
-                $line_numbers = $true
+                $file_names = $true
             }
 
             # following two conditions should have exactly this order
